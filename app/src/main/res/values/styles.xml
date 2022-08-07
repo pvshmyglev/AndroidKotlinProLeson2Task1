@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="styleButtonBottomMenu" parent="Widget.Material3.Button.ElevatedButton.Icon">
+
+        <item name="android:textSize">@dimen/sizeTextButton</item>
+        <item name="android:textColor">@color/grayForButton</item>
+        <item name="iconTint">@color/grayForButton</item>
+
+    </style>
+
+    <style name="Widget.Theme.NMedia.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+</resources>
